@@ -1,0 +1,55 @@
+body {
+    background: black;
+    color: rgb(100, 1, 180);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(100, 1, 180);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 0 0 15px rgb(100, 1, 180);
+}
+
+.frase-shadow {
+    color: red;
+    font-style: italic;
+    text-shadow: 0 0 10px red;
+}
+
+#resultado,
+#listaAnimes {
+    width: 350px;
+    margin: 20px auto;
+    padding: 15px;
+    background: rgb(25, 25, 25);
+    border: 2px solid rgb(100, 1, 180);
+    border-radius: 10px;
+}
+
+.erro {
+    color: red;
+}
+
+.sucesso {
+    color: lime;
+}
